@@ -25,4 +25,15 @@ public class userData {
 		};
 
 	}
+
+	public static void EmailId() {
+		UserInterface emailId = (data) -> {
+			String email = data;
+			String reg = "^[A-Za-z0-9+_.-]+@(.+)$";
+			Pattern pattern = Pattern.compile(reg);
+			Matcher matcher = pattern.matcher(email);
+			return matcher.matches();
+		};
+
+	}
 }

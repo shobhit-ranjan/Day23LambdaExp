@@ -1,7 +1,7 @@
 
 public interface UserInterface {
 
-	public Boolean UserData(String data);
+	public Boolean UserData (String data);
 
 	
 }

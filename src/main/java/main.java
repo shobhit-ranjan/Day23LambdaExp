@@ -6,6 +6,7 @@ public class main {
          userData data = new userData();
          userData.firstName();
          userData.LastName();
+         userData.EmailId();
 	}
 
 }
