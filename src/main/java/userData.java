@@ -54,5 +54,16 @@ public class userData {
 		};
 
 	}
+	
+	public static void phonenumber() {
+		UserInterface phoneNumber = (data) -> {
+			String phoneNo = data;
+			String reg = "(0/91)?[6-9][0-9]{9}";
+			Pattern pattern = Pattern.compile(reg);
+			Matcher matcher = pattern.matcher(phoneNo);
+			return matcher.matches();
+		};
+
+	}
 
 }
