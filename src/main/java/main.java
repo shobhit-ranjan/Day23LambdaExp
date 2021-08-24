@@ -5,6 +5,7 @@ public class main {
 		// TODO Auto-generated method stub
          userData data = new userData();
          userData.firstName();
+         userData.LastName();
 	}
 
 }
