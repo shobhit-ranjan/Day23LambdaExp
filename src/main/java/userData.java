@@ -7,7 +7,7 @@ public class userData {
 
 		UserInterface firstName = (data) -> {
 			String Name = data;
-			String reg = "^([A-Z][a-z]{3,})$";
+			String reg = "^[A-Z][a-z][A-Za-z]$";
 			Pattern pattern = Pattern.compile(reg);
 			Matcher matcher = pattern.matcher(Name);
 			return matcher.matches();
@@ -18,7 +18,7 @@ public class userData {
 	public static void LastName() {
 		UserInterface lastName = (data) -> {
 			String Name = data;
-			String reg = "^([A-Z][a-z]{3,})$";
+			String reg = "^[A-Z][a-z][A-Za-z]*$";
 			Pattern pattern = Pattern.compile(reg);
 			Matcher matcher = pattern.matcher(Name);
 			return matcher.matches();
