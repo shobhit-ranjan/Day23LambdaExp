@@ -47,11 +47,12 @@ public class userData {
 
 		UserInterface password = (data) -> {
 			String pass = data;
-			String regex = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{7,}$";
-			Pattern pattern = Pattern.compile(regex);
+			String reg = "^(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{7,}$";
+			Pattern pattern = Pattern.compile(reg);
 			Matcher matcher = pattern.matcher(pass);
 			return matcher.matches();
 		};
 
 	}
+
 }
