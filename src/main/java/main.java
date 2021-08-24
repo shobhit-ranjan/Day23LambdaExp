@@ -7,6 +7,7 @@ public class main {
          userData.firstName();
          userData.LastName();
          userData.EmailId();
+         userData.password();
 	}
 
 }
