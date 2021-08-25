@@ -4,6 +4,6 @@ import org.junit.Test;
 
 public class TestuserInput{
 
-	userData  data = new userData();
+	userData  data = new userData ();
 
 }

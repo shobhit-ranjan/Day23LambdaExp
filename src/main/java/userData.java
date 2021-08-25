@@ -55,6 +55,12 @@ public class userData {
 
 	}
 	
+	// taking only as an indian number as an input
+	// should start with either 0 or 91 
+	// then it could have 6,7,8,9 
+	// then other number from 0 to 9 
+	// upto 9 digit
+	
 	public static void phonenumber() {
 		UserInterface phoneNumber = (data) -> {
 			String phoneNo = data;
